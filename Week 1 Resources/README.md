@@ -28,7 +28,8 @@ Now, we will look at Applications of Python in Data Analysis fields and will cov
 # Basic of Stock Market!
 
 Now we will look into the fundamental concepts of the stock market.
-Go through this module on Basic of Stock Market by Zerodha Varsity :
+
+Go through this module on Basic of Stock Market by Zerodha Varsity : [Module](https://github.com/aaditsule/Stock-Price-Prediction-Using-LSTM/blob/main/Week%201%20Resources/05-Module-Introduction%20to%20Stock%20Markets.pdf)
 
 ## **Getting Started**
 
