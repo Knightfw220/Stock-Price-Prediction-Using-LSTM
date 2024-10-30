@@ -31,6 +31,8 @@ Now we will look into the fundamental concepts of the stock market.
 
 Go through this module on Basic of Stock Market by Zerodha Varsity : [Module](https://github.com/aaditsule/Stock-Price-Prediction-Using-LSTM/blob/main/Week%201%20Resources/05-Module-Introduction%20to%20Stock%20Markets.pdf)
 
+You can also watch this playlist, incase you prefer videos over reading : [Youtube](https://youtube.com/playlist?list=PLX2SHiKfualH9XGLv9r1sdKucoGky35J7&si=4d6Z09cz7cmtBa-a)
+
 ## **Getting Started**
 
 ### **Installation and Setup**
