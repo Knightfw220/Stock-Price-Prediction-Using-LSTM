@@ -14,7 +14,6 @@ For the first week we will be covering some basic topics:
 * [Some Standard libraries of python](#some-standard-libraries-of-python)
 * [Classes and Objects](#classes-and-objects)
 * [File Handling (Optional)](#file-handling-optional)
-* [Assignment 1](#assignment)
 
 Then we'll go through some data science libraries.
 # Data Science Libraries!
@@ -28,10 +27,6 @@ Now, we will look at Applications of Python in Data Analysis fields and will cov
 
 
 
-Let's get this party started!
-
-Python is the most diverse language with very varied applications in different fields such as Research, Machine Learning, Backend Web Development, Data Visualisation, Web Scraping and much more, and this is possible only because of the different libraries and frameworks available for Python.In subsequent weeks we will be covering some amazing applications of python.
-Let's get started!
 ## **Getting Started**
 
 ### **Installation and Setup**
@@ -113,8 +108,6 @@ Make sure you have covered the following topics -
 
 ## Functions
 Functions are the named blocks of code that are designed to do one specific job. When you want to perform a particular task that you’ve defined in a function, you call the name of that function responsible for it. If you need to perform that task multiple times throughout your program, you don't need to type all the code for the same task again and again; you just call the function dedicated to handling that task, and the call tells Python to run the code inside the function. You’ll find that using functions makes your programs easier to write, read, test, and fix.
-You can see [this notebook](https://github.com/Amish462004/Blackoptions-price/blob/main/Week%201-Content/Functions.ipynb) which covers some details about the functions.  
-If you prefer to watch videos to learn you can head over to [this link](https://www.youtube.com/watch?v=1OuRhD7FmTA&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm&index=12).
 
 ## **Scope of a Variable**
 The location where we can find a variable and also access it if required is called the scope of a variable. Variables that are defined inside a function body have a local scope, and those defined outside have a global scope. This means that local variables can be accessed only inside the function in which they are declared, whereas global variables can be accessed throughout the program body by all functions.
@@ -133,8 +126,6 @@ If you prefer to watch videos you can go through [this video](https://www.youtub
 ## **Python Modules and Packages**
 One advantage of functions is the way they separate blocks of code from your main program. By using descriptive names for your functions, your main program will be much easier to follow. You can go a step further by storing your functions in a separate file called a module and then importing that module into your main program.
 Storing your functions in a separate file allows you to hide the details of your program’s code and focus on its higher-level logic. It also allows you to re-use functions in many different programs. When you store your functions in separate files, you can share those files with other programmers without having to share your entire program. Knowing how to import functions also allows you to use libraries of functions that other programmers have written.
-
-You can go through [this notebook](https://github.com/Amish462004/Blackoptions-price/blob/main/Week%201-Content/Modules%26Packages.ipynb) to learn about modules and packages.
 
 ## **Iterators**
 Iterator in python is any python type that can be used with a ‘for in loop’. Python lists, tuples, dicts and sets are all examples of inbuilt iterators. These types are iterators because they implement following methods.In fact, any object that wants to be an iterator must implement following methods.
@@ -163,9 +154,8 @@ Important thing to note here is you don’t really need to remember all of these
 When you write a class, you define the general behavior that a whole category of objects can have. When you create individual objects from the class, each object is automatically equipped with this general behavior; you can then give each object whatever unique traits you desire.
 
 Making an object from a class is called _instantiation_, and you work with _instances_ of a class. You’ll specify the kind of information that can be stored in instances, and you’ll define the actions that can be taken with these _instances_.
-
-You can visit [this notebook](https://github.com/Amish462004/Blackoptions-price/blob/main/Week%201-Content/Classes.ipynb) to learn about classes and objects.   
-You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
+ 
+You can go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
 
 ## *File Handling (Optional)*
@@ -180,6 +170,97 @@ Hence, in Python, a file operation takes place in the following order:
 * Close the file
 
 To read more about File Handling refer [this](https://www.geeksforgeeks.org/file-handling-python/)
+
+## Numpy
+### What is NumPy?
+NumPy stands for Numerical Python. One of the most fundamental packages in Python, NumPy is a general-purpose array-processing package.It is a Python library used for working with arrays.It provides high-performance multidimensional array objects and tools to work with the arrays. NumPy is an efficient container of generic multi-dimensional data.
+NumPy’s main object is the homogeneous multidimensional array where their dimensions are called axes and the number of axes is called rank. NumPy’s array class is called ndarray aka array.To read more about NumPy head over to this [link](https://numpy.org/doc/stable/user/whatisnumpy.html)
+
+### Installation of Numpy
+For installation you can refer [this](https://www.w3schools.com/python/numpy/numpy_getting_started.asp)
+Once you are done with the installation part , you can use it by importing it in your applications by adding **import** keyword. 
+  
+### Getting Started With Numpy
+
+Check this [notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/NumPy.ipynb) to get basic knowledge of Numpy.Relevant links to websites and documentations have been provided in the notebook itself.  
+
+
+
+
+## Pandas
+Pandas is an open-source Python package that provides high-performance, easy-to-use data structures and data analysis tools for the labeled data in Python programming language. Pandas stand for **Python Data Analysis Library**.
+**When to use?**
+Pandas is a perfect tool for data wrangling or munging. It is designed for quick and easy data manipulation, reading, aggregation, and visualization.
+Pandas take data in a CSV or TSV file or a SQL database and create a Python object with rows and columns called a data frame. The data frame is very similar to a table in statistical software, say Excel or SPSS.
+
+### What can you do with Pandas?
+* Indexing, manipulating, renaming, sorting, merging data frame
+* Update, Add, Delete columns from a data frame
+* Impute missing files, handle missing data or NANs
+* Plot data with histogram or box plot
+
+### Getting Started With Pandas
+
+Check this [notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/Pandas.ipynb) to get basic knowledge of Pandas .Relevant links to websites and documentations have been provided in the notebook itself.  
+
+
+
+
+## Matplotlib
+Matplotlib is a data visualization library and 2-D plotting library of Python.It is a close resemblance to MATLAB embedded in Python programming language.
+Histogram, bar plots, scatter plots, area plot to pie plot, Matplotlib can depict a wide range of visualizations. With a bit of effort and tint of visualization capabilities, with Matplotlib, you can create just any visualizations.
+Matplotlib also facilitates labels, grids, legends, and some more formatting entities with Matplotlib. Basically, everything that can be drawn!
+
+### Installation of Matplotlib
+For installation you can refer [this](https://www.w3schools.com/python/matplotlib_getting_started.asp)
+Once you are done with the installation part , you can use it by importing it in your applications by adding **import** keyword.
+
+### Getting Started With Matplotlib
+
+Check this [notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/Matplotlib.ipynb) to get basic knowledge of Pandas .Relevant links to websites and documentations have been provided in the notebook itself.  
+
+ 
+ 
+ 
+## Seaborn
+Check out [this](https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp) or [this](https://www.datacamp.com/community/tutorials/seaborn-python-tutorial).
+You can also look at [Seaborn documenation](http://seaborn.pydata.org/introduction.html) to know more about Seaborn.
+
+
+
+
+## Scikit-learn
+
+Scikit-learn is a free software library for Machine Learning coding primarily in the Python programming language.Scikit-learn is built on top of other Python libraries like NumPy, SciPy,  Matplotlib, Pandas, etc. and so it provides full interoperability with these libraries.You can implement various Supervised and Unsupervised Machine learning models on Scikit-learn like Classification, Regression, Support Vector Machines, Random Forests, Nearest Neighbors, Naive Bayes, Decision Trees, Clustering, etc. with Scikit-learn. 
+
+### Components of scikit-learn
+Scikit-learn comes loaded with a lot of features. Here are a few of them to help you understand the spread:
+* **Supervised learning algorithms**: Think of any supervised machine learning algorithm you might have heard about and there is a very high chance that it is part of scikit-learn. Starting from Generalized linear models (e.g Linear Regression), Support Vector Machines (SVM), Decision Trees to Bayesian methods – all of them are part of scikit-learn toolbox.
+* **Cross-validation**: There are various methods to check the accuracy of supervised models on unseen data using sklearn.
+* **Unsupervised learning algorithms**: Again there is a large spread of machine learning algorithms in the offering – starting from clustering, factor analysis, principal    component analysis to unsupervised neural networks.
+* **Feature extraction**: Scikit-learn for extracting features from images and text
+
+Check out [this documentation](https://scikit-learn.org/stable/) to get a deeper understanding of deploying it in machine learning, pre-processing, cross-validation and visualization algorithms.
+
+## Applications in Finance!
+
+Now, you can begin looking at some of the applications of Python. Starting with its application in Finance and Specifically in
+Automated-Trading in Stock Markets.
+
+* You may get a minimal Introduction of the Stock Market and Trading (in genral) from [here](https://www.youtube.com/watch?v=bl797s8u0QQ&t=463s). You just need to know about how prices fluctuate in such Markets and how that can be used to generate profits.
+
+* This Process of buying at low prices and selling them at higher ones could be automated to yield astronomical profits. This is what's known as Algorithmic Trading!
+* Some people who effiectively automated Cryptocurrency-Trading made upto 3000% Profits, and even though that was partly fueled by the
+Cryptocurrency frenzy that took over the world, In general even not-so-complex Stock Market Strategies give upto 10% cumulative Annual Profits in
+certain markets.
+
+One of the easiest Strategies in Algorithmic Trading is that of **Mean Reversion**.
+
+* Mean reversion in stock price is the assumption that the price will tend to move back to the average price over time. Mean reversion trading often refers to counter-trend or reversal trading.
+* If any stock price is currently below its average, then we should buy it, as there is every chance that it is having some down-time and will rise in coming times.
+* Similarly if some Stock Price is above its Average, then that indicates, its time to sell.
+
+You may look at a naive implementation of Mean Reversion in [Country Equity Indices](https://en.wikipedia.org/wiki/Stock_market_index) [here](https://www.quantconnect.com/tutorials/strategy-library/mean-reversion-effect-in-country-equity-indexes).
 
 
 This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
