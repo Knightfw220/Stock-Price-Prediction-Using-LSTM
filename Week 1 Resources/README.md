@@ -158,7 +158,7 @@ Making an object from a class is called _instantiation_, and you work with _inst
 You can go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
 
-## *File Handling (Optional)*
+## File Handling (Optional)
 Since we have covered a good number of topics , we are keeping File Handling as optional.Those who are interested in learning this can go through the article below.
 
 Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk). Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off), we use files for future use of the data by permanently storing them. When we want to read from or write to a file, we need to open it first. When we are done, it needs to be closed so that the resources that are tied with the file are freed.
@@ -182,7 +182,7 @@ Once you are done with the installation part , you can use it by importing it in
   
 ### Getting Started With Numpy
 
-Check this [notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/NumPy.ipynb) to get basic knowledge of Numpy.Relevant links to websites and documentations have been provided in the notebook itself.  
+Check this [notebook](https://github.com/aaditsule/Stock-Price-Prediction-Using-LSTM/blob/main/Week%201%20Resources/02-NumPy.ipynb) to get basic knowledge of Numpy.Relevant links to websites and documentations have been provided in the notebook itself.  
 
 
 
@@ -201,7 +201,7 @@ Pandas take data in a CSV or TSV file or a SQL database and create a Python obje
 
 ### Getting Started With Pandas
 
-Check this [notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/Pandas.ipynb) to get basic knowledge of Pandas .Relevant links to websites and documentations have been provided in the notebook itself.  
+Check this [notebook](https://github.com/aaditsule/Stock-Price-Prediction-Using-LSTM/blob/main/Week%201%20Resources/03-Pandas.ipynb) to get basic knowledge of Pandas .Relevant links to websites and documentations have been provided in the notebook itself.  
 
 
 
@@ -217,7 +217,7 @@ Once you are done with the installation part , you can use it by importing it in
 
 ### Getting Started With Matplotlib
 
-Check this [notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/Matplotlib.ipynb) to get basic knowledge of Pandas .Relevant links to websites and documentations have been provided in the notebook itself.  
+Check this [notebook](https://github.com/aaditsule/Stock-Price-Prediction-Using-LSTM/blob/main/Week%201%20Resources/04-Matplotlib.ipynb) to get basic knowledge of Pandas .Relevant links to websites and documentations have been provided in the notebook itself.  
 
  
  
@@ -262,5 +262,7 @@ One of the easiest Strategies in Algorithmic Trading is that of **Mean Reversion
 
 You may look at a naive implementation of Mean Reversion in [Country Equity Indices](https://en.wikipedia.org/wiki/Stock_market_index) [here](https://www.quantconnect.com/tutorials/strategy-library/mean-reversion-effect-in-country-equity-indexes).
 
+
+# End of Week-1!
 
 This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
