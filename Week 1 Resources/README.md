@@ -25,7 +25,10 @@ Now, we will look at Applications of Python in Data Analysis fields and will cov
 * [Seaborn](#Seaborn)
 * [Scikit-learn](#Scikit-learn)
 
+# Basic of Stock Market!
 
+Now we will look into the fundamental concepts of the stock market.
+Go through this module on Basic of Stock Market by Zerodha Varsity :
 
 ## **Getting Started**
 
