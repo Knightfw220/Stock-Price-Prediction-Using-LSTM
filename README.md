@@ -6,4 +6,9 @@ We will begin by covering the basics of Python and essential libraries for data 
 
 We will also work with historical stock price data, transforming it through various preprocessing steps to create a time-series dataset. The project will include defining a lookback period, where we use a sliding window of past prices to predict the next price. After data preparation, we will build and train the LSTM model, optimizing it through experimentation with hyperparameters like batch size, number of LSTM units, and dropout rates. They will also evaluate the model’s predictive performance using metrics such as Mean Square Error (MSE) to understand its accuracy.
 
-By the end, you will have hands-on experience with deep learning in finance.
+This will be our week wise plan for the project:
+[Week-wise Plan](https://docs.google.com/document/d/1yVX2OQ-nf1Ns460pre4Cd7ZByLUylLgOP9Wmhpp3Wwg/edit?usp=sharing)
+
+Note: There may be slight changes in the plan if there is time constraint.
+
+By the end, you will have hands-on experience with deep learning in finance!
