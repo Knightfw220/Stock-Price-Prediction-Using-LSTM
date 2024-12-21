@@ -1,6 +1,6 @@
 # Week 2 Assignment
 
-Based on Content of this week, there are **5 assignments** to be completed.
+Based on Content of this week, there are **3 assignments** to be completed.
 
 ## Instructions:
 1. **Download** the provided `.ipynb` files.
@@ -14,6 +14,6 @@ Based on Content of this week, there are **5 assignments** to be completed.
 ## Submission:
 
 Use the following link to upload your assignments:  
-   [Submit Here](https://forms.gle/cZoWGYvMJn6NNEak6)
+   [Submit Here](https://forms.gle/7925UuKqYVUN5b5U9)
 
 **Note: Use LDAP id to submit assignments** 
